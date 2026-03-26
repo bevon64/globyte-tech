@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globyte Technology | Premium Digital Solutions</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="logo.jpg" type="image/jpeg">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header id="header" class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <img src="logo.jpg" alt="Globyte Technology Logo" class="logo-img">
+            </a>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li>
+                        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                    <li><a href="#contact" class="nav-link btn-navbar">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Interactive Tech Particles Background -->
+        <div id="particles-js" class="particles-container"></div>
+        <div class="container hero-container" style="position: relative; z-index: 2;">
+            <h1 class="hero-title reveal">Globyte Technology</h1>
+            <p class="hero-tagline">Building modern digital solutions for businesses</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+                <a href="#solutions" class="btn btn-secondary">Explore Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-section">
+        <div class="container">
+            <p class="trusted-title">Trusted by engineering teams at leading companies</p>
+            <div class="logo-carousel">
+                <div class="logo-track">
+                    <i class="fab fa-aws logo-icon"></i>
+                    <i class="fab fa-stripe logo-icon"></i>
+                    <i class="fab fa-github logo-icon"></i>
+                    <i class="fab fa-docker logo-icon"></i>
+                    <i class="fab fa-slack logo-icon"></i>
+                    <i class="fab fa-figma logo-icon"></i>
+                    <!-- Duplicated for infinite scroll -->
+                    <i class="fab fa-aws logo-icon"></i>
+                    <i class="fab fa-stripe logo-icon"></i>
+                    <i class="fab fa-github logo-icon"></i>
+                    <i class="fab fa-docker logo-icon"></i>
+                    <i class="fab fa-slack logo-icon"></i>
+                    <i class="fab fa-figma logo-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="section bg-dark">
+        <div class="container section-header">
+            <h2 class="section-title">Core Solutions</h2>
+            <p class="section-subtitle">We build business tools, systems, and technical solutions to help you operate
+                more efficiently.</p>
+        </div>
+        <div class="container solutions-grid">
+            <!-- Solution Card 1 -->
+            <div class="card solution-card reveal">
+                <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                <h3 class="card-title">Business Automation</h3>
+                <p class="card-desc">Optimize operations with workflow automation, task automation, and intelligent
+                    process optimization systems.</p>
+            </div>
+            <!-- Solution Card 2 -->
+            <div class="card solution-card reveal">
+                <div class="card-icon"><i class="fas fa-store"></i></div>
+                <h3 class="card-title">Point of Sale (POS)</h3>
+                <p class="card-desc">Advanced retail POS solutions featuring real-time inventory tracking and
+                    comprehensive sales management.</p>
+            </div>
+            <!-- Solution Card 3 -->
+            <div class="card solution-card reveal">
+                <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                <h3 class="card-title">Custom Systems</h3>
+                <p class="card-desc">Tailor-made booking systems, dynamic management dashboards, and robust internal
+                    tools.</p>
+            </div>
+            <!-- Solution Card 4 -->
+            <div class="card solution-card reveal">
+                <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3 class="card-title">Web Platforms</h3>
+                <p class="card-desc">High-performance business websites, high-conversion landing pages, and full online
+                    presence solutions.</p>
+            </div>
+            <!-- Solution Card 5 -->
+            <div class="card solution-card reveal">
+                <div class="card-icon"><i class="fas fa-server"></i></div>
+                <h3 class="card-title">Hosting & Deployment</h3>
+                <p class="card-desc">Reliable website hosting, secure server setups, and seamless domain integration
+                    tailored for growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-darker">
+        <div class="container section-header center">
+            <h2 class="section-title">Support Services</h2>
+            <p class="section-subtitle">Comprehensive secondary offerings to support and elevate your brand.</p>
+        </div>
+        <div class="container services-grid">
+            <div class="service-item reveal">
+                <i class="fas fa-paint-brush"></i>
+                <div class="service-content">
+                    <h4>Web Design</h4>
+                    <p>Modern, user-centric interfaces crafted to visually express your brand's unique identity.</p>
+                </div>
+            </div>
+            <div class="service-item reveal">
+                <i class="fas fa-code"></i>
+                <div class="service-content">
+                    <h4>Website Development</h4>
+                    <p>Robust frontend and backend development utilizing performant, cutting-edge scaleable frameworks.
+                    </p>
+                </div>
+            </div>
+            <div class="service-item reveal">
+                <i class="fas fa-bug"></i>
+                <div class="service-content">
+                    <h4>Debugging & Optimization</h4>
+                    <p>Deep performance tuning, critical bug fixes, and rigorous codebase organization to maximize
+                        loading speeds.</p>
+                </div>
+            </div>
+            <div class="service-item reveal">
+                <i class="fas fa-fingerprint"></i>
+                <div class="service-content">
+                    <h4>Branding & Identity</h4>
+                    <p>Comprehensive corporate branding strategies, logo designs, and cohesive visual identities that
+                        stand out.</p>
+                </div>
+            </div>
+            <div class="service-item reveal">
+                <i class="fas fa-palette"></i>
+                <div class="service-content">
+                    <h4>Graphic Design</h4>
+                    <p>High-quality professional marketing assets, including engaging posters, placards, and bespoke
+                        business cards.</p>
+                </div>
+            </div>
+            <div class="service-item reveal">
+                <i class="fas fa-headset"></i>
+                <div class="service-content">
+                    <h4>24/7 Technical Support</h4>
+                    <p>Round-the-clock proactive server monitoring, ongoing maintenance, and dedicated technical
+                        assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-dark">
+        <div class="container about-container">
+            <div class="about-content reveal">
+                <h2 class="section-title">About GT</h2>
+                <h3 class="about-subtitle">Reliability. Innovation. Efficiency.</h3>
+                <p>Globyte Technology (GT) is a growing tech solutions brand dedicated to empowering modern businesses.
+                    We don't just build websites; we engineer the digital infrastructure that drives growth.</p>
+                <p>From custom automation tools to comprehensive management dashboards, our forward-looking approach
+                    ensures your business operates at maximum efficiency. Partner with GT and step confidently into the
+                    future of digital business.</p>
+            </div>
+            <div class="about-visual reveal">
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=800"
+                        alt="Tech Team Working" class="req-img">
+                    <div class="glass-float">
+                        <i class="fas fa-rocket"></i> <span class="float-text">Forward Looking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section stats-section bg-dark">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <div class="stat-number" data-target="150" data-suffix="+">0</div>
+                    <p class="stat-label">Global Clients</p>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-number" data-target="99" data-suffix=".9%">0</div>
+                    <p class="stat-label">System Uptime</p>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-number" data-target="5" data-suffix="M+">0</div>
+                    <p class="stat-label">Tasks Automated</p>
+                </div>
+                <div class="stat-item reveal">
+                    <div class="stat-number" data-target="24" data-suffix="/7">0</div>
+                    <p class="stat-label">Server Monitoring</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-darker">
+        <div class="container section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A glimpse into the robust systems and dashboards we've engineered.</p>
+        </div>
+        <div class="container portfolio-grid">
+            <div class="portfolio-card reveal">
+                <div class="portfolio-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&q=80&w=800');">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Retail POS Dashboard</h4>
+                    <p>Real-time inventory and sales tracking interface.</p>
+                </div>
+            </div>
+            <div class="portfolio-card reveal">
+                <div class="portfolio-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800');">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Admin Analytics Panel</h4>
+                    <p>Comprehensive data visualization and management system.</p>
+                </div>
+            </div>
+            <div class="portfolio-card reveal">
+                <div class="portfolio-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1555066931-bf19f8fd1085?auto=format&fit=crop&q=80&w=800');">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Workflow Automation Platform</h4>
+                    <p>Custom software bridging gaps across major enterprise apps.</p>
+                </div>
+            </div>
+            <div class="portfolio-card reveal">
+                <div class="portfolio-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800');">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Custom IoT Infrastructure</h4>
+                    <p>Scalable hardware integration and real-time monitoring networks.</p>
+                </div>
+            </div>
+            <div class="portfolio-card reveal">
+                <div class="portfolio-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800');">
+                </div>
+                <div class="portfolio-info">
+                    <h4>Enterprise Security Audits</h4>
+                    <p>Full-stack vulnerability detection and protocol restructuring.</p>
+                </div>
+            </div>
+            <div class="portfolio-card reveal">
+                <div class="portfolio-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=800');">
+                </div>
+                <div class="portfolio-info">
+                    <h4>B2B Client Portals</h4>
+                    <p>Secure, high-performance web applications built natively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-dark">
+        <div class="container section-header center">
+            <h2 class="section-title">Technical Expertise</h2>
+            <p class="section-subtitle">The capabilities that power our digital solutions.</p>
+        </div>
+        <div class="container skills-container">
+            <div class="skill-item reveal">
+                <div class="skill-info">
+                    <span class="skill-name"><i class="fas fa-code"></i> Web Development</span>
+                    <span class="skill-percent">99%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="99%"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-info">
+                    <span class="skill-name"><i class="fas fa-robot"></i> Automation Systems</span>
+                    <span class="skill-percent">99%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="99%"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-info">
+                    <span class="skill-name"><i class="fas fa-sitemap"></i> System Design</span>
+                    <span class="skill-percent">99%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="99%"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-info">
+                    <span class="skill-name"><i class="fas fa-cloud-upload-alt"></i> Hosting & Deployment</span>
+                    <span class="skill-percent">99%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="99%"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-info">
+                    <span class="skill-name"><i class="fas fa-pencil-ruler"></i> UI/UX Design</span>
+                    <span class="skill-percent">99%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="99%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section bg-darker">
+        <div class="container section-header center">
+            <h2 class="section-title">Client Success</h2>
+            <p class="section-subtitle">Hear from businesses that use GT systems.</p>
+        </div>
+        <div class="container testimonials-grid">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card reveal">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">"Globyte Technology revolutionized how we handle our inventory. Their custom
+                    POS system reduced our checkout and processing time by 40%."</p>
+                <div class="testimonial-author">
+
+                    <div class="author-info">
+                        <strong>David Omondi</strong>
+                        <span>Operations Director, RetailPro</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card reveal">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">"The workflow automation dashboard GT built for us pays for itself every
+                    week. Our team is finally focused on real work instead of manual data entry."</p>
+                <div class="testimonial-author">
+
+                    <div class="author-info">
+                        <strong>Grace Wanjiru</strong>
+                        <span>CEO, LogiTech Solutions</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card reveal">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">"We needed a reliable landing page and booking system quickly. GT delivered
+                    a cutting-edge platform that immediately increased our online bookings."</p>
+                <div class="testimonial-author">
+
+                    <div class="author-info">
+                        <strong>Samuel Kiprono</strong>
+                        <span>Founder, Auto Imports Hub</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="testimonial-card reveal">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="testimonial-text">"Their 24/7 support and system monitoring is unmatched. Whenever we need
+                    infrastructure changes, the Globyte team executes flawlessly."</p>
+                <div class="testimonial-author">
+
+                    <div class="author-info">
+                        <strong>Fatuma Hassan</strong>
+                        <span>Manager, Prime Estate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Insights Section -->
+    <section id="insights" class="section bg-darker">
+        <div class="container">
+            <div class="section-header center reveal">
+                <h2 class="section-title">Tech Insights</h2>
+                <p class="section-subtitle">Deep dives into automation, infrastructure, and modern business scaling.</p>
+            </div>
+            <div class="insights-grid">
+                <a href="article.html" class="insight-card reveal">
+                    <div class="insight-img" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800');"></div>
+                    <div class="insight-content">
+                        <span class="insight-date">March 24, 2026</span>
+                        <h4>The Future of Retail POS Systems</h4>
+                        <p>How cloud-native architecture is redefining the speed and reliability of checkout transactions globally.</p>
+                        <span class="insight-link">Read Article <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="article.html" class="insight-card reveal">
+                    <div class="insight-img" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800');"></div>
+                    <div class="insight-content">
+                        <span class="insight-date">March 18, 2026</span>
+                        <h4>Why Automation is Scaling Businesses</h4>
+                        <p>A comprehensive breakdown of how eliminating redundant manual tasks leads to exponential vertical growth.</p>
+                        <span class="insight-link">Read Article <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="article.html" class="insight-card reveal">
+                    <div class="insight-img" style="background-image: url('https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=800');"></div>
+                    <div class="insight-content">
+                        <span class="insight-date">March 10, 2026</span>
+                        <h4>Migrating Legacy Systems to Modern Stacks</h4>
+                        <p>The definitive guide on transitioning established enterprise databases to lightning-fast cloud equivalents.</p>
+                        <span class="insight-link">Read Article <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section bg-dark">
+        <div class="container section-header center">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="container faq-container">
+            <details class="faq-item reveal">
+                <summary class="faq-question">
+                    <h4>How long does a project take?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+                <div class="faq-answer">
+                    <p>Timelines vary based on complexity. A standard business website takes 2-4 weeks, while custom
+                        automation systems or POS dashboards typically require 6-10 weeks of development and testing.
+                    </p>
+                </div>
+            </details>
+            <details class="faq-item reveal">
+                <summary class="faq-question">
+                    <h4>Do you build custom systems?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+                <div class="faq-answer">
+                    <p>Yes. Custom system design is our core expertise. We dive deep into your business requirements to
+                        architect tailored dashboards, internal tools, and management software that fits your exact
+                        workflow.</p>
+                </div>
+            </details>
+            <details class="faq-item reveal">
+                <summary class="faq-question">
+                    <h4>Do you offer support after delivery?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+                <div class="faq-answer">
+                    <p>Absolutely. We provide 24/7 technical support, system maintenance, and performance optimization
+                        to ensure your digital infrastructure remains robust and up-to-date.</p>
+                </div>
+            </details>
+            <details class="faq-item reveal">
+                <summary class="faq-question">
+                    <h4>Can you automate my business processes?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+                <div class="faq-answer">
+                    <p>Yes, we specialize in identifying bottlenecks and implementing intelligent workflow and task
+                        automation algorithms that save your team hours of manual labor.</p>
+                </div>
+            </details>
+            <!-- New FAQ Items -->
+            <details class="faq-item reveal">
+                <summary class="faq-question">
+                    <h4>What industries do you specialize in?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+                <div class="faq-answer">
+                    <p>While our digital solutions are incredibly versatile, our systems are especially impactful for
+                        retail, logistics, real estate, and service-oriented businesses aiming to scale quickly in local
+                        and global markets.</p>
+                </div>
+            </details>
+            <details class="faq-item reveal">
+                <summary class="faq-question">
+                    <h4>Do you provide training for the systems you build?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+                <div class="faq-answer">
+                    <p>Absolutely. Delivering the software is only half the job. We provide hands-on remote or live
+                        training sessions for your staff, along with comprehensive documentation so your team can use
+                        the system confidently.</p>
+                </div>
+            </details>
+            <details class="faq-item reveal">
+                <summary class="faq-question">
+                    <h4>Are your websites optimized for mobile and SEO?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+                <div class="faq-answer">
+                    <p>Every website and web platform we build uses mobile-first responsive design. We also configure
+                        advanced on-page SEO best practices (metadata, quick load speeds, semantic HTML) to maximize
+                        your visibility on search engines.</p>
+                </div>
+            </details>
+            <details class="faq-item reveal">
+                <summary class="faq-question">
+                    <h4>How do you handle business data security?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </summary>
+                <div class="faq-answer">
+                    <p>Security is paramount. Our custom dashboards and POS applications are built with modern
+                        authentication protocols, robust encryption, and automated database backups to ensure your
+                        sensitive business data is shielded.</p>
+                </div>
+            </details>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section bg-darker">
+        <div class="container">
+            <div class="section-header center reveal">
+                <h2 class="section-title">Transparent Architecture Tiers</h2>
+                <p class="section-subtitle">Scalable infrastructure solutions from standalone retail setups to completely tailored enterprise deployments.</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Tier 1 -->
+                <div class="pricing-card reveal">
+                    <div class="pricing-header">
+                        <h3>Starter Build</h3>
+                        <div class="price"><span>Custom Quote</span></div>
+                        <p>Perfect for solitary retail units needing a modernization leap.</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Core POS application</li>
+                        <li><i class="fas fa-check"></i> Base inventory synchronization</li>
+                        <li><i class="fas fa-check"></i> Standard 24h cloud backups</li>
+                        <li><i class="fas fa-check"></i> Rapid email support line</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">Get a Quote</a>
+                </div>
+                
+                <!-- Tier 2 -->
+                <div class="pricing-card popular reveal">
+                    <div class="popular-badge">High Demand</div>
+                    <div class="pricing-header">
+                        <h3>Growth Scale</h3>
+                        <div class="price"><span>Custom Quote</span></div>
+                        <p>Engineered ecosystems specifically optimizing rapid multi-store expansion.</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Deep multi-location networking</li>
+                        <li><i class="fas fa-check"></i> Global real-time analytics panel</li>
+                        <li><i class="fas fa-check"></i> Automated accounting protocol linking</li>
+                        <li><i class="fas fa-check"></i> Priority 24/7 endpoint monitoring</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Discuss Deployment</a>
+                </div>
+                
+                <!-- Tier 3 -->
+                <div class="pricing-card reveal">
+                    <div class="pricing-header">
+                        <h3>Enterprise Core</h3>
+                        <div class="price"><span>Custom Quote</span></div>
+                        <p>Unrestricted custom software engineering maximizing digital dominance.</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Completely custom blank-slate codebase</li>
+                        <li><i class="fas fa-check"></i> Proprietary penetration & security audits</li>
+                        <li><i class="fas fa-check"></i> Private dedicated engineering team</li>
+                        <li><i class="fas fa-check"></i> Elite 99.99% system SLA architecture</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">Contact Engineering</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-dark">
+        <div class="container contact-container">
+            <div class="contact-info reveal">
+                <h2 class="section-title">Start Your Project</h2>
+                <p>Ready to upgrade your business infrastructure? Get in touch with our tech experts today.</p>
+                <div class="contact-methods">
+                    <a href="mailto:info@globyte.dev" class="contact-method contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@globyte.dev</span>
+                    </a>
+                    <a href="tel:+254745151906" class="contact-method contact-link">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+254 745 151906</span>
+                    </a>
+                </div>
+                <div class="contact-actions">
+                    <a href="tel:+254745151906" class="btn btn-primary"><i class="fas fa-phone"></i> Call Now</a>
+                    <a href="https://wa.me/254745151906" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i>
+                        WhatsApp</a>
+                </div>
+            </div>
+            <div class="contact-form-wrapper reveal">
+                <!-- Using Formspree to handle static form emails -->
+                <form class="contact-form" action="https://formspree.io/f/xjgpkkdn" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="john@company.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Send Inquiry</label>
+                        <textarea name="message" id="message" rows="5"
+                            placeholder="Tell us about the systems or automation you need..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="logo.jpg" alt="Globyte Technology Logo" class="footer-logo">
+                <p>Building modern digital solutions for businesses.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#portfolio">Our Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://x.com/globyte_tech?s=21" aria-label="X/Twitter" target="_blank"><i
+                        class="fab fa-x-twitter"></i></a>
+                <a href="https://x.com/globyte_tech?s=21" aria-label="Instagram" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Globyte Technology (GT). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Actions -->
+    <div class="floating-actions">
+        <a href="https://wa.me/254745151906" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <button id="scrollToTopBtn" class="float-btn float-top" aria-label="Scroll to top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
